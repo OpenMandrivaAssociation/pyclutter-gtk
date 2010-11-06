@@ -12,6 +12,7 @@ Name:          %{name}
 Version:       %{version}
 Release:       %{release}
 Source0:       http://www.clutter-project.org/sources/%name/%apiver/%{name}-%{version}.tar.bz2
+Patch0:		pyclutter-gtk-0.10.0-link.patch
 License:       LGPLv2+
 Group:         Graphics
 Url:           http://clutter-project.org/
@@ -47,6 +48,7 @@ Python bindings for clutter-gtk - development files.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure2_5x --enable-docs

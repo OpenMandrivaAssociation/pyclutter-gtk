@@ -1,6 +1,6 @@
 %define name pyclutter-gtk
 %define version 0.10.0
-%define rel 2
+%define rel 3
 %define release %mkrel %rel
 
 %define apiver 1.0

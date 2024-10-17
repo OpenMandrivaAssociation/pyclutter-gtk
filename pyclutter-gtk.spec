@@ -8,7 +8,7 @@ Version:	0.10.0
 Release:	5
 License:	LGPLv2+
 Group:		Graphics
-Url:		http://clutter-project.org/
+Url:		https://clutter-project.org/
 Source0:	http://www.clutter-project.org/sources/%{name}/%{apiver}/%{name}-%{version}.tar.bz2
 Patch0:		pyclutter-gtk-0.10.0-link.patch
 Patch1:		pyclutter-gtk-0.10.0-clutter-gtk-1.0.patch

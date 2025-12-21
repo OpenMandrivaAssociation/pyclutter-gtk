@@ -18,6 +18,11 @@ Patch4:		pyclutter-gtk-0.10.0-no-zoomable.patch
 Patch5:		pyclutter-gtk-0.10.0-no-standin.patch
 Patch6:		pyclutter-gtk-0.10.0-no-viewport.patch
 Patch7:		pyclutter-gtk-0.10.0-automake.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(clutter-gtk-1.0)
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	pygtk2.0-devel >= 2.8.0
